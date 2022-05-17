@@ -1,0 +1,59 @@
+.best3{
+    margin-left: 3%;
+}
+
+.best3 h1{
+    margin-top: 3%;
+}
+
+.best3 h4{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.boxcon3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.boxcon3 .icon2{
+    width: 70%;
+    height: 70%;
+}
+
+
+@media screen and (max-width:940px) {
+    .best {
+        margin: 1rem 0;
+    }
+
+    .boxcon3 .containerz{
+        margin-top: 5%;
+    }
+
+    .boxcon3{
+        margin-left: 15%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .best > div p {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .best .container {
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .best > div p {
+        margin: 1rem .5rem;
+    }
+}
+
+
+
+

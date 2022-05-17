@@ -1,0 +1,97 @@
+
+.best2 h2{
+    margin-left: 12%;
+}
+
+.boxcon{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.icon{
+    width: 50%;
+    margin-left: 45%;
+}
+
+.best2 h1{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.best2 p{
+    margin-top: 20%;
+    margin-left: -15%;
+    margin-right: 5%;
+}
+
+
+.img1{
+    width: 70%;
+    margin-left: -5%;
+    margin-top: -7%;
+}
+
+.boxcon .container5{
+    width: 150%;
+    margin-left: -50%;
+}
+
+.boxcon .container6{
+    width: 150%;
+    margin-left: -50%;
+}
+.boxcon .container7{
+    width: 150%;
+    margin-left: -50%;
+}
+.boxcon .container8{
+    width: 150%;
+    margin-left: -50%;
+}
+
+
+@media screen and (max-width:940px) {
+    .best {
+        margin: 1rem 0;
+    }
+
+    .img1{
+        width: 70%;
+        margin-left: -20%;
+        margin-top: -7%;
+    }
+
+    .boxcon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 10%;
+    }
+
+    .best2 p{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .best > div p {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .best .container {
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .best > div p {
+        margin: 1rem .5rem;
+    }
+}
+
+
+
+

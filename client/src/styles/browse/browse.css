@@ -1,0 +1,133 @@
+.browse-container {
+    display: block;
+    position: relative;
+    background: #fdfdfd;
+    min-height: 100vh;
+    padding: 30px;
+    
+}
+
+.browse {
+    /* background: #0e1724; */
+    min-height: 100px;
+    z-index: 1100;
+    margin-bottom: 25px;
+    box-shadow: 0 0 30px #ddd;
+    padding: 15px 40px;
+}
+
+.browse .search-bar {
+    max-width: 1200px;
+}
+.search-bar .search-header {
+    margin-bottom: 10px;
+}
+
+
+/* ------------------ SEARCH BODY  ------------------------- */
+.search-body .search_form {
+    position: relative;
+}
+
+.search-body .search_form #search{
+    background: #fafafa;
+    border: 1px solid #ddd;
+    min-width: 250px;
+    width: 100%;
+    outline: none;
+    text-indent: 5px;
+    border-radius: 3px;
+    padding: 12px 30px;
+}
+
+.search-body .search_form .search_icon {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    pointer-events: none;
+}
+
+.search-body .search_form .search_icon .material-icons {
+    font-size: 14px;
+    transform: translateY(3px);
+}
+
+.search-body .search_form .close_search {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    color: black;
+
+}
+
+
+
+
+/* ------------------ FILTER CARD  ------------------------- */
+
+.search-content {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 25px;
+}
+
+.filter-container {
+    max-width: 300px;
+    width: 100%;
+}
+
+.filter-card {
+    min-height: 40vh;
+    padding: 16px;
+    border: 1px #fdfdfd;
+    box-shadow: 0 0 30px #ddd;
+
+}
+
+.filter-card .filter-body {
+    width: 100%;
+    position: relative;
+}
+
+.filter-body .hourly-form {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 15px;
+}
+
+
+
+/* ------------------ RESULT CARD  ------------------------- */
+
+.result-container {
+    width: 100%;
+    box-shadow: 0 0 40px #ddd;
+    padding: 20px 40px;   
+}
+.result-container .result-header {
+    display: flex;
+    justify-content: space-between;
+}
+.result-header .sorting {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.result-container .card  {
+    border: 1px solid #eaeaf0;
+    background: #fff;
+    padding: 10px 40px;
+}
+
+.result-container .card:hover {
+    border: 1px solid orange;
+}
+
+.card {
+    border: none;
+}

@@ -1,0 +1,62 @@
+/* -----------------  Job Status Card  --------------- */
+.job_card {
+    max-width: 1000px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.job_card .card {
+    box-shadow: 0 0 40px #ddd;
+}
+
+.job_card .card .card_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.job_card .card_body-content  {
+    margin-right: 10%;
+}
+
+.card_body .status-box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    padding: 30px;
+    border-radius: 3%;
+}
+
+.card_body .status-box span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* -----------------  Job Applicants Card  --------------- */
+
+.job_card .applicant_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.applicant_card .card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.applicant_card .card_header .card_name {
+    transform: translateY(3px);
+    margin-left: 10px;
+}
+
+
