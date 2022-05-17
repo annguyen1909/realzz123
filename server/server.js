@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+const path = require('path')
 const express = require('express')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
@@ -8,7 +8,10 @@ const fileUpload = require('express-fileupload')
 
 
 const app = express()
-
+app.use(express.static(path.resolve(__dirname, './client/build')));
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client','build','index.html'));
+   });
 app.use(express.json())
 app.use(cors())
 app.use(cookieParser())

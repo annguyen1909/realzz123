@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./server.js",
-    "devstart": "nodemon ./server.js"
+    "devstart": "nodemon ./server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Client && npm run build --prefix Client"
   },
   "author": "",
   "license": "ISC",
